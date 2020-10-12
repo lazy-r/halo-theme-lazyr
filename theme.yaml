@@ -1,0 +1,11 @@
+id: Circle
+name: Circle
+author:
+  name: lazyr
+  website: http://lazyr.top
+description:
+logo:
+website: http://lazyr.top
+repo: https://github.com/lazy-r/halo-theme-lazyr
+version: 1.0.0
+require: 1.3.0
