@@ -28,7 +28,7 @@
 
     <@global.head />
 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bulma@0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="../source/css/bulma.min.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
@@ -70,7 +70,7 @@
 	<link rel="stylesheet" href="${static!}/source/lib/hydrogen/css/magnific-popup.css">
 	<link rel="stylesheet" href="${static!}/source/lib/hydrogen/css/salvattore.css">
 	<link rel="stylesheet" href="${static!}/source/lib/hydrogen/css/style.css">
-      
+
     <#if post??>
         <link rel="stylesheet" type="text/css" href="${static!}/source/lib/prism/css/prism-${settings.code_pretty!'Default'}.css" />
         <script type="text/javascript" src="${static!}/source/lib/prism/js/prism.js"></script>
@@ -82,12 +82,12 @@
         <div class="container">
             <div class="columns">
 				<div style="padding:0" class="column is-12-tablet is-12-desktop is-12-widescreen has-order-2 column-main">
-				 <#nested />	
+				 <#nested />
               </div>
             </div>
         </div>
     </section>
-  
+
     <#include "common/footer.ftl">
     <#include "common/scripts.ftl">
     <#include "search/local.ftl">
