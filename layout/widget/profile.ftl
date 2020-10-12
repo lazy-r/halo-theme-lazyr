@@ -70,7 +70,7 @@
                 </a>
             </#if>
             <#if settings.social_weibo?? && settings.social_weibo!=''>
-                <a class="level-item " target="_blank" title="Weibo" href="https://weibo.com/${settings.social_weibo}">
+                <a class="level-item " target="_blank" title="微博" href="https://weibo.com/${settings.social_weibo}">
                     <i class="fab fa-weibo"></i>
                 </a>
             </#if>
@@ -94,19 +94,19 @@
                     <i class="fab fa-telegram"></i>
                 </a>
             </#if>
+
             <!--
             <a class="level-item " target="_blank" title="Docker" href="${context!}/atom.xml">
                 <i class="fas fa-rss"></i>
             </a>
 			-->
-            <!--
-          	<#if true>
-                <a class="level-item " target="_blank" title="Docker" href="https://hub.docker.com/repositories">
-                    <i class="fab fa-docker"></i>
+            <#if true>
+                <a class="level-item " target="_blank" title="CSDN" href="https://blog.csdn.net/qq_41071421">
+                    <i class="fab fa-blogger"></i>
                 </a>
 
             </#if>
-			-->
+
             <span></span>
         </div>
         <!--
