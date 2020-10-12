@@ -24,7 +24,7 @@
 	<@global.head />
     <link rel="canonical" href="${canonical!}" />
     <link rel="alternative" href="${atom_url!}" title="${blog_title!}" type="application/atom+xml">
-    <link rel="stylesheet" href="//gitee.com/lazy-r/resources/blob/master/bulma.min.css">
+    <link rel="stylesheet" href="//lazyr.top:8010/www/bulma.min.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.4.1/css/all.min.css">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
