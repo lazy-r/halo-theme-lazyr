@@ -8,8 +8,31 @@
             </div>
         </#if>
         <#if position == 'left'>
+            <div class="card widget">
+                <div class="card-content">
+                    <ul class = "menu-list">
+                        <li>
+                            <a href="/">
+                                <h2 style="color: #4a4a4a;font-weight:bold">首页</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="openSearchPanel()" href="javascript:;">
+                                <h2 style="color: #4a4a4a;font-weight:bold" >搜索</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/links">
+                                <h2 style="color: #4a4a4a;font-weight:bold" >好友链接</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </#if>
+        <#if position == 'left'>
             <#if isShowMenu == 'urlNavMenuShow'>
-                <#include "../widget/url_menu_tag.ftl">
+                <!--<#include "../widget/url_menu_tag.ftl">-->
                 <#include "../plugin/show-mobile-menu.ftl">
                 <div id="catalog-over-box" ></div>
             <#else>
@@ -19,9 +42,9 @@
                 <#if settings.sidebar_tagcloud!true>
                     <#include "../widget/tagcloud.ftl">
                 </#if>
-                <#if settings.sidebar_links!true>
-                    <#include "../widget/links.ftl">
-                </#if>
+<#--                <#if settings.sidebar_links!true>-->
+<#--                    <#include "../widget/links.ftl">-->
+<#--                </#if>-->
                 <#if isShowMenu == 'menuShow'>
                     <#include "../widget/menu_tag.ftl">
                     <#include "../plugin/show-mobile-menu.ftl">

@@ -10,15 +10,15 @@
                         ${user.nickname!}
                     </p>
                     <p class="is-size-7 is-block has-text-grey-lighter">
-                    	<marquee  direction="left" behavior="scroll"  scrollamount="5" >
-                        	${user.description!}
-                    	</marquee>
+                        <marquee  direction="left" behavior="scroll"  scrollamount="5" >
+                            ${user.description!}
+                        </marquee>
                     </p>
                     <#if settings.profile_location?? && settings.profile_location!=''>
-                    <p class="is-size-7 is-flex is-flex-center has-text-grey-lighter">
-                        <i class="fas fa-map-marker-alt has-mr-7"></i>
-                        <span>${settings.profile_location!}</span>
-                    </p>
+                        <p class="is-size-7 is-flex is-flex-center has-text-grey-lighter">
+                            <i class="fas fa-map-marker-alt has-mr-7"></i>
+                            <span>${settings.profile_location!}</span>
+                        </p>
                     </#if>
                 </div>
             </div>
@@ -56,7 +56,7 @@
             </div>
         </nav>
         <div class="level">
-            <a class="level-item button is-primary is-rounded" href="${settings.profile_follow_url!'${blog_url!}'}" target="_blank">关注我</a>
+            <a class="level-item button is-primary is-rounded" href="${settings.profile_follow_url!'/s/about'}">Who am I?</a>
         </div>
         <div class="level is-mobile">
             <#if settings.social_github?? && settings.social_github!=''>
@@ -94,19 +94,32 @@
                     <i class="fab fa-telegram"></i>
                 </a>
             </#if>
-            <a class="level-item " target="_blank" title="RSS" href="${context!}/atom.xml">
+            <!--
+            <a class="level-item " target="_blank" title="Docker" href="${context!}/atom.xml">
                 <i class="fas fa-rss"></i>
             </a>
+			-->
+            <!--
+          	<#if true>
+                <a class="level-item " target="_blank" title="Docker" href="https://hub.docker.com/repositories">
+                    <i class="fab fa-docker"></i>
+                </a>
+
+            </#if>
+			-->
+            <span></span>
         </div>
-		<p>
-			<a target="_blank" title="QQ" href="https://jq.qq.com/?_wv=1027&k=57dvSNy">
-			    公众号：mumuser
-			</a>
-		</p>
-		<p>
-			<a target="_blank" title="QQ" href="https://jq.qq.com/?_wv=1027&k=5vWbtIi">
-			    企鹅群：932154986
-			</a>
-		</p>
-	</div>
+        <!--
+      <p>
+          <a target="_blank" title="QQ" href="https://jq.qq.com/?_wv=1027&k=57dvSNy">
+              公众号：mumuser
+          </a>
+      </p>
+      <p>
+          <a target="_blank" title="QQ" href="https://jq.qq.com/?_wv=1027&k=5vWbtIi">
+              企鹅群：932154986
+          </a>
+      </p>
+      -->
+    </div>
 </div>
