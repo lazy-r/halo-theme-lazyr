@@ -32,7 +32,7 @@
         </#if>
         <#if position == 'left'>
             <#if isShowMenu == 'urlNavMenuShow'>
-                <!--<#include "../widget/url_menu_tag.ftl">-->
+                <#--<#include "../widget/url_menu_tag.ftl">-->
                 <#include "../plugin/show-mobile-menu.ftl">
                 <div id="catalog-over-box" ></div>
             <#else>

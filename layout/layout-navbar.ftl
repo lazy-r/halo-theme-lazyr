@@ -28,7 +28,7 @@
 
     <@global.head />
 
-    <link rel="stylesheet" href="//lazyr.top:8010/www/bulma.min.cssbulma.min.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/bulma.min.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">

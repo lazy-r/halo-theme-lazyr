@@ -60,48 +60,48 @@
         </div>
         <div class="level is-mobile">
             <#if settings.social_github?? && settings.social_github!=''>
-                <a class="level-item " target="_blank" title="Github" href="https://github.com/${settings.social_github}">
+                <a class="level-item icon-item" target="_blank" title="Github" href="https://github.com/${settings.social_github}">
                     <i class="fab fa-github"></i>
                 </a>
             </#if>
             <#if settings.social_qq?? && settings.social_qq!=''>
-                <a class="level-item " target="_blank" title="QQ" href="tencent://message/?uin=${settings.social_qq}&Site=&Menu=yes">
+                <a class="level-item icon-item " target="_blank" title="QQ" href="tencent://message/?uin=${settings.social_qq}&Site=&Menu=yes">
                     <i class="fab fa-qq"></i>
                 </a>
             </#if>
             <#if settings.social_weibo?? && settings.social_weibo!=''>
-                <a class="level-item " target="_blank" title="微博" href="https://weibo.com/${settings.social_weibo}">
+                <a class="level-item icon-item " target="_blank" title="微博" href="https://weibo.com/${settings.social_weibo}">
                     <i class="fab fa-weibo"></i>
                 </a>
             </#if>
             <#if settings.social_twitter?? && settings.social_twitter!=''>
-                <a class="level-item  s" target="_blank" title="Twitter" href="https://twitter.com/${settings.social_twitter}">
+                <a class="level-item icon-item" target="_blank" title="Twitter" href="https://twitter.com/${settings.social_twitter}">
                     <i class="fab fa-twitter"></i>
                 </a>
             </#if>
             <#if settings.social_facebook?? && settings.social_facebook!=''>
-                <a class="level-item " target="_blank" title="Facebook" href="https://www.facebook.com/${settings.social_facebook}">
+                <a class="level-item icon-item " target="_blank" title="Facebook" href="https://www.facebook.com/${settings.social_facebook}">
                     <i class="fab fa-facebook"></i>
                 </a>
             </#if>
             <#if settings.social_email?? && settings.social_email!=''>
-                <a class="level-item " target="_blank" title="Email" href="mailto:${settings.social_email}">
+                <a class="level-item icon-item " target="_blank" title="Email" href="mailto:${settings.social_email}">
                     <i class="fas fa-envelope"></i>
                 </a>
             </#if>
             <#if settings.social_telegram?? && settings.social_telegram!=''>
-                <a class="level-item " target="_blank" title="Telegram" href="https://t.me/${settings.social_telegram}">
+                <a class="level-item icon-item " target="_blank" title="Telegram" href="https://t.me/${settings.social_telegram}">
                     <i class="fab fa-telegram"></i>
                 </a>
             </#if>
 
             <!--
-            <a class="level-item " target="_blank" title="Docker" href="${context!}/atom.xml">
+            <a class="level-item icon-item " target="_blank" title="Docker" href="${context!}/atom.xml">
                 <i class="fas fa-rss"></i>
             </a>
 			-->
             <#if true>
-                <a class="level-item " target="_blank" title="CSDN" href="https://blog.csdn.net/qq_41071421">
+                <a class="level-item icon-item " target="_blank" title="CSDN" href="https://blog.csdn.net/qq_41071421">
                     <i class="fab fa-blogger"></i>
                 </a>
 
