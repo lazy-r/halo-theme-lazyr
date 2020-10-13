@@ -7,7 +7,9 @@
           <li>
             <a href="${post.fullPath!}" target="_blank">
               <img src="${post.thumbnail!}" alt="${post.title!}">
-              <div class="intro">${post.title!}</div>
+            </a>
+            <a href="${post.fullPath!}" target="_blank">
+              <div class="intro">“${post.title!}”</div>
             </a>
           </li>
           </#list>
@@ -15,4 +17,4 @@
       </#if>
     </#list>
 </@tagTag>
-</#macro> 
+</#macro>

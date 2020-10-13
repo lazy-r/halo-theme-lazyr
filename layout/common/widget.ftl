@@ -1,7 +1,7 @@
 <#macro widget position,isShowMenu>
     <div class="column is-4-tablet is-4-desktop <#if position=='right'>is-3-widescreen <#else> is-2-widescreen </#if>   <#if position=='right'>is-hidden-touch is-hidden-desktop-only</#if> <#if position == 'left'>has-order-1<#else>has-order-3</#if> column-${position} <%= sticky_class(position) %>">
         <#if position == 'left'>
-            <div class = "card" align='center' title="" href="javascript:;" onclick="filtration_click()">
+            <div class = "card" align='center' title="点击我试试" href="javascript:;" onclick="filtration_click()">
                 <img  src="http://lazyr.top/upload/2020/10/u=2564544361,4035511743&amp;fm=26&amp;gp=0-8fd3ccec5f18416883795478b516d71f.jpg" alt="lazyr">
                 <h3 style="color: #4a4a4a">我虽然懒是懒一点</h3>
                 <h3 style="color: #4a4a4a">但绝对不是随便</h3>
