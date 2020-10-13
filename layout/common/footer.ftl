@@ -15,8 +15,18 @@
                     <br />
                   	Thank for
                     <a href="https://mumusur.com/" target="_blank">Halo</a> & <a
-                            href="https://github.com/halo-dev/halo-theme-icarus" target="_blank">Icarus</a>
+                            href="https://github.com/lazy-r/halo-theme-lazyr" target="_blank">Frosted Glass</a>
                     <br />
+                    <span id="createdDate"></span><br/>
+                    <script>
+                        var urodz= new Date("10/9/2020");
+                        var s="本网站已运行 ";
+                        var now = new Date();
+                        var ile = now.getTime() - urodz.getTime();
+                        var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+                        document.getElementById("createdDate").innerText = s+dni +"天";
+                    </script>
+                    <span><a href="http://lazyr.top:8010/images/lazyr.top.png" target="_blank">${settings.beian!}</a></span>
                     <@global.footer />
                 </p>
             </div>
@@ -28,8 +38,8 @@
         </div>
     </div>
 </footer>
-          
-          
+
+
 <!-- 点击过滤 弹出抽屉 -->
 <div id="sq_drawer">
   	<span class="column has-text-centered has-text-primary" >
