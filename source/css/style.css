@@ -1393,11 +1393,12 @@ figure.highlight .title {
 /* ========================================================== */
 ::-webkit-scrollbar-track-piece {
     background-color: #cacbce;
+    border-radius: 100px;
 }
-
 ::-webkit-scrollbar {
     width: 14px;
     height: 11px;
+    background-color: #cacbce;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1421,7 +1422,6 @@ figure.highlight .title {
 
 #catalogBox::-webkit-scrollbar-track-piece {
     background-color: #f8f8f8;
-
 }
 
 #catalogBox::-webkit-scrollbar {
@@ -1433,7 +1433,7 @@ figure.highlight .title {
     background-color: #dddddd;
     background-clip: padding-box;
     min-height: 28px;
-    border-radius: 100px;
+
 }
 
 #catalogBox::-webkit-scrollbar-thumb:hover {
