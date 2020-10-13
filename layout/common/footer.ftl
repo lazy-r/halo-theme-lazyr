@@ -26,15 +26,15 @@
                         var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
                         document.getElementById("createdDate").innerText = s+dni +"天";
                     </script>
-                    <span><a href="http://lazyr.top:8010/images/lazyr.top.png" target="_blank">${settings.beian!}</a></span>
+                    <span><a href="http://lazyr.top:8010/images/lazyr.top.png" target="_blank">皖ICP备2020017144号</a></span>
                     <@global.footer />
                 </p>
             </div>
-            <div class="level-end">
-                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
-                    ${settings.links_footer!}
-                </div>
-            </div>
+<#--            <div class="level-end">-->
+<#--                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">-->
+<#--                    ${settings.links_footer!}-->
+<#--                </div>-->
+<#--            </div>-->
         </div>
     </div>
 </footer>

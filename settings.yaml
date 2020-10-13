@@ -1,10 +1,5 @@
 post:
   label: 文章设置
-  beian:
-    name: beian
-    label: 备案号
-    type: text
-    placeholder: 'ICP备案号'
   items:
     share_type:
       name: share_type

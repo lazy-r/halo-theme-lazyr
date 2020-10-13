@@ -8,6 +8,14 @@ body {
     background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/*
+.footer {
+    background: #fff
+}
+*/
+.footer {
+    background: rgba(0,0,0,0);
+}
 /*自定义 结束*/
 
 html {
@@ -196,9 +204,9 @@ img.thumbnail {
     }
 }
 
-.footer {
-    background: #fff
-}
+/*.footer {*/
+/*    background: #fff*/
+/*}*/
 
 .footer .field .button {
     background: 0 0
@@ -816,9 +824,6 @@ img.thumbnail {
     }
 }
 
-.footer {
-    background: #fff
-}
 
 .footer .field .button {
     background: 0 0

@@ -3,12 +3,12 @@
         <#if position == 'left'>
             <div class = "card" align='center' title="" href="javascript:;" onclick="filtration_click()">
                 <img  src="http://lazyr.top/upload/2020/10/u=2564544361,4035511743&amp;fm=26&amp;gp=0-8fd3ccec5f18416883795478b516d71f.jpg" alt="lazyr">
-                <h3 style="color: #9ca2a8">我虽然懒是懒一点</h3>
-                <h3 style="color: #9ca2a8">但绝对不是随便</h3>
+                <h3 style="color: #4a4a4a">我虽然懒是懒一点</h3>
+                <h3 style="color: #4a4a4a">但绝对不是随便</h3>
             </div>
         </#if>
         <#if position == 'left'>
-            <div class="card widget">
+            <div class="card widget myCard">
                 <div class="card-content">
                     <ul class = "menu-list">
                         <li>
