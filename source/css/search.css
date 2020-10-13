@@ -9,6 +9,7 @@
     background: rgba(0, 0, 0, 0.7);
     transform-origin: 0%;
     perspective-origin: top center;
+
 }
 
 .searchbox.show {
@@ -80,6 +81,7 @@
     bottom: 100px;
     margin-left: -270px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 559px), screen and (max-height: 479px) {
