@@ -55,3 +55,6 @@
 .ins-section .ins-search-item, .ins-section .ins-section-header{
     border-radius: 10px;
 }
+
+.mermaid{margin:0 auto;text-align:center}
+.mermaid svg{background:#fff;max-width:1000px}

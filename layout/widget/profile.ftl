@@ -56,7 +56,7 @@
             </div>
         </nav>
         <div class="level">
-            <a class="level-item button is-primary is-rounded" href="${settings.profile_follow_url!'/s/about'}">Who am I?</a>
+            <a class="level-item button is-primary is-rounded" style="background-color: #00C4A7" href="${settings.profile_follow_url!'/s/about'}">Who am I?</a>
         </div>
         <div class="level is-mobile">
             <#if settings.social_github?? && settings.social_github!=''>

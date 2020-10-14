@@ -1,4 +1,5 @@
 <#macro layout type,title,keywords,description,canonical>
+<#include "common/mermaid.ftl">
 <#include "common/navbar.ftl">
 <#include "common/widget.ftl">
 <!DOCTYPE html>
@@ -63,7 +64,7 @@
     </#if>
   	<#include "common/head.ftl">
 </head>
-<body class="is-3-column">
+<body class="is-3-column" onclick="close_user_info()">
 	<@navbar 'page' />
     <section class="section">
         <div class="container">
