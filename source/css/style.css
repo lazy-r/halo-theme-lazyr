@@ -8,6 +8,15 @@ body {
     background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.pagination .pagination-link:not(.is-current),
+.pagination .pagination-next,
+.pagination .pagination-previous {
+    border: none;
+    background: hsla(0,0%,100%,.25) border-box;
+    overflow: hidden;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+}
+
 /*
 .footer {
     background: #fff
@@ -232,12 +241,7 @@ img.thumbnail {
     margin: auto
 }
 
-.pagination .pagination-link:not(.is-current),
-.pagination .pagination-next,
-.pagination .pagination-previous {
-    background: #fff;
-    border: none
-}
+
 
 .pagination .pagination-link,
 .pagination .pagination-next,
@@ -849,12 +853,7 @@ img.thumbnail {
     margin: auto
 }
 
-.pagination .pagination-link:not(.is-current),
-.pagination .pagination-next,
-.pagination .pagination-previous {
-    background: #fff;
-    border: none
-}
+
 
 .pagination .pagination-link,
 .pagination .pagination-next,

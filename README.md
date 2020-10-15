@@ -46,13 +46,18 @@
 
 注意：请一定添加【轮播列表/lunboliebiao】、【轮播附图/lunbofutu】两个标签，否则轮播图将不能正常显示。以后有时间会将这值改为灵活配置的。
 
-若仍有问题请添加企鹅群：932154986
 
+
+#### 2020年10月15日 更新内容：
+添加对mermaid的支持
+界面改为圆角矩形+毛玻璃效果
+布局发生一定的辩护
+本主题是个人使用，所以很多并没有设置通用修改的界面，若想修改请二次自定义
 
 ## 鸣谢
 本人只是对原主题做了修改，感谢[halo](https://halo.run)的优质个人博客，感谢[ppoffice](https://github.com/ppoffice)做了这么优秀的主题。
 
-修改后主题：[https://github.com/lin-liem/weicarus](https://github.com/lin-liem/weicarus)
+修改后主题：[https://github.com/lazy-r/halo-theme-lazyr](https://github.com/lazy-r/halo-theme-lazyr)
 
 所以，保留本主题原有README，如下：
 
