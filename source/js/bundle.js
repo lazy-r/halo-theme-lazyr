@@ -238,8 +238,13 @@ $(document).ready(function() {
                 nextState = state['desktop-visible']
             } else {
                 nextState = Object.assign({}, state['desktop-dock'], {
-                    bottom: getScrollBottom() - maxBottom + bottomMargin
+                    // bottom: getScrollBottom() - maxBottom + bottomMargin
+                    bottom: 20
                 })
+                // console.log("getScrollBottom() = "+getScrollBottom());
+                // console.log("maxBottom = "+maxBottom);
+                // console.log("bottomMargin = "+bottomMargin);
+                // console.log("getScrollBottom() - maxBottom + bottomMargin="+getScrollBottom() - maxBottom + bottomMargin)
             }
             var left = $mainColumn.offset().left + $mainColumn.outerWidth() + padding;
             nextState = Object.assign({}, nextState, {
