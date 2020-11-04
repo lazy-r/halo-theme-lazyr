@@ -5,6 +5,14 @@ https://prismjs.com/download.html#themes=prism-coy&languages=markup+css+clike+ja
  * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
  * @author Tim  Shedor
  */
+/*加粗样式*/
+.article strong{
+    color:#BF3553
+}
+/*下划线悬浮样式*/
+.article u:hover{
+    cursor:pointer
+}
 
 /* img样式已修改 */
 .article img{
@@ -110,7 +118,7 @@ pre[class*="language-"]>code {
     border-left: 6px solid #009e53;
     box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
     background-color: #fdfdfd;
-    background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+    background-image: linear-gradient(#e8e8e885 50%, #e9e9e9 50%);
     background-size: 3em 3em;
     background-origin: content-box;
     background-attachment: local;

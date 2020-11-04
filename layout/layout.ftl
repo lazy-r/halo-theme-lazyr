@@ -64,7 +64,7 @@
     </#if>
   	<#include "common/head.ftl">
 </head>
-<body class="is-3-column" onclick="close_user_info()">
+<body class="is-3-column">
 	<@navbar 'page' />
     <section class="section">
         <div class="container">

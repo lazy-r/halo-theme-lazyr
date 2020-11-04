@@ -57,6 +57,10 @@
 }
 
 .mermaid{margin:0 auto;text-align:center}
-.mermaid svg{background:#fff;width:950px}
+.mermaid svg{
+    width: 975px;
+    border-radius: 10px;
+    background: hsla(0, 0%, 100%, 0.5) border-box;
+}
 
 #back-to-top.fade-in{opacity:1}#back-to-top.rise-up{transform:translateY(0)}
